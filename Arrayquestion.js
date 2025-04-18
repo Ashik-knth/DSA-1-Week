@@ -29,7 +29,7 @@
 // }
 
 
-// console.log(isPrime(1));
+// console.log(isPrime(3));
 // console.log(isPrime(2));
 // console.log(isPrime(5));
 // console.log(isPrime(4));
@@ -116,20 +116,20 @@ console.log(SecoundLargest([10, 5, 8, 12, 14]));*/
 // Delete a specific element in arryay
 
 
-/*function deleteElement(arr,target){
-     let index = 0 ;
+// function deleteElement(arr,target){
+//      let index = 0 ;
 
-     for(let i=0 ; i<arr.length;i++){
-        if(arr[i]!==target){
-            arr[index] = arr[i];
-            index++;
-        }
-     }
+//      for(let i=0 ; i<arr.length;i++){
+//         if(arr[i]!==target){
+//             arr[index] = arr[i];
+//             index++;
+//         }
+//      }
 
-     return arr.splice(0,index);
-}
+//      return arr.splice(0,index);
+// }
 
-console.log(deleteElement([1, 2, 3, 4, 5], 3)); */
+// console.log(deleteElement([1, 2, 3, 4, 5], 3)); 
 
 
 
@@ -152,5 +152,4 @@ console.log(deleteElement([1, 2, 3, 4, 5], 3)); */
 
 
 console.log(SecoundLargest([1,2,6,3,4,5])); */
-
 

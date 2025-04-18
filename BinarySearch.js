@@ -30,13 +30,13 @@
 // Find min in a sorted rotated array
 
 
-/*function findMinInRotatedArray(arr) {
+function findMinInRotatedArray(arr) {
     let left = 0, right = arr.length - 1;
 
     while (left < right) {
         let mid = Math.floor(left + (right - left) / 2);
     
-        if (arr[mid] > arr[right]) {
+        if ( arr[right] < arr[mid]) {
             
             left = mid + 1;
         } else {
@@ -49,6 +49,6 @@
 }
 
 
-console.log(findMinInRotatedArray([4, 5, 6, 7, 0, 1, 2])); */
+console.log(findMinInRotatedArray([4, 5, 6, 7, 0, 1, 2])); 
 
 

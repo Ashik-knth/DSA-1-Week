@@ -184,3 +184,15 @@ console.log(sumArray([1,2,3,4,5]));*/
 
 console.log(binarySearch([1, 2, 3, 4, 5], 4)); */
 
+
+
+/*function removeL(str) {
+  if (str.length === 0) return ""; // Base case: return empty string
+
+  let firstChar = str[0] === "l" ? "" : str[0]; 
+  return firstChar + removeL(str.slice(1)); 
+}
+
+console.log(removeL("hello")); // Output: "heo" */
+
+
